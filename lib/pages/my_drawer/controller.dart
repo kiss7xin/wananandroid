@@ -1,15 +1,10 @@
 import 'package:get/get.dart';
 
-class MainController extends GetxController {
-  MainController();
-
-  // 选中 index
-  int selectedIndex = 0;
-
-  get bottomBarTitles => ["首页", "广场", "公众号", "体系", "项目"];
+class MyDrawerController extends GetxController {
+  MyDrawerController();
 
   _initData() {
-    update(["main"]);
+    update(["my_drawer"]);
   }
 
   void onTap() {}

@@ -1,1 +1,15 @@
+static const home = '/home';
+static const hotResult = '/hot_result';
+static const hotWord = '/hot_word';
+static const knowledgetree = '/knowledgetree';
+static const login = '/login';
+static const main = '/main';
+static const myDrawer = '/my_drawer';
+static const navigation = '/navigation';
+static const project = '/project';
+static const register = '/register';
 static const splash = '/splash';
+static const todo = '/todo';
+static const todoAdd = '/todo_add';
+static const weChat = '/we_chat';
+static const webView = '/web_view';

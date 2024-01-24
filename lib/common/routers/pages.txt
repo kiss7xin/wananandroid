@@ -1,5 +1,61 @@
 
       GetPage(
+        name: RouteNames.home,
+        page: () => const HomePage(),
+      ),
+      GetPage(
+        name: RouteNames.hotResult,
+        page: () => const HotResultPage(),
+      ),
+      GetPage(
+        name: RouteNames.hotWord,
+        page: () => const HotWordPage(),
+      ),
+      GetPage(
+        name: RouteNames.knowledgetree,
+        page: () => const KnowledgetreePage(),
+      ),
+      GetPage(
+        name: RouteNames.login,
+        page: () => const LoginPage(),
+      ),
+      GetPage(
+        name: RouteNames.main,
+        page: () => const MainPage(),
+      ),
+      GetPage(
+        name: RouteNames.myDrawer,
+        page: () => const MyDrawerPage(),
+      ),
+      GetPage(
+        name: RouteNames.navigation,
+        page: () => const NavigationPage(),
+      ),
+      GetPage(
+        name: RouteNames.project,
+        page: () => const ProjectPage(),
+      ),
+      GetPage(
+        name: RouteNames.register,
+        page: () => const RegisterPage(),
+      ),
+      GetPage(
         name: RouteNames.splash,
         page: () => const SplashPage(),
+      ),
+      GetPage(
+        name: RouteNames.todo,
+        page: () => const TodoPage(),
+      ),
+      GetPage(
+        name: RouteNames.todoAdd,
+        page: () => const TodoAddPage(),
+      ),
+      GetPage(
+        name: RouteNames.weChat,
+        page: () => const WeChatPage(),
+      ),
+      GetPage(
+        name: RouteNames.webView,
+        page: () => const WebViewPage(),
       ),

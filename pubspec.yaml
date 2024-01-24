@@ -38,12 +38,6 @@ dependencies:
   webview_flutter: ^2.0.4
   # loading
   loading_animations: ^2.2.0
-  # share
-  share: ^2.0.1
-  # 设备信息
-  device_info: ^2.0.0
-  # 包信息
-  package_info: ^2.0.0
   # 路径查询
   path_provider: ^2.0.1
   # permission 权限

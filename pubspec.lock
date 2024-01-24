@@ -89,22 +89,6 @@ packages:
       url: "https://pub.flutter-io.cn"
     source: hosted
     version: "1.0.6"
-  device_info:
-    dependency: "direct main"
-    description:
-      name: device_info
-      sha256: f4a8156cb7b7480d969cb734907d18b333c8f0bc0b1ad0b342cdcecf30d62c48
-      url: "https://pub.flutter-io.cn"
-    source: hosted
-    version: "2.0.3"
-  device_info_platform_interface:
-    dependency: transitive
-    description:
-      name: device_info_platform_interface
-      sha256: b148e0bf9640145d09a4f8dea96614076f889e7f7f8b5ecab1c7e5c2dbc73c1b
-      url: "https://pub.flutter-io.cn"
-    source: hosted
-    version: "2.0.1"
   dio:
     dependency: "direct main"
     description:
@@ -293,14 +277,6 @@ packages:
       url: "https://pub.flutter-io.cn"
     source: hosted
     version: "1.9.1"
-  mime:
-    dependency: transitive
-    description:
-      name: mime
-      sha256: e4ff8e8564c03f255408decd16e7899da1733852a9110a58fe6d1b817684a63e
-      url: "https://pub.flutter-io.cn"
-    source: hosted
-    version: "1.0.4"
   octo_image:
     dependency: transitive
     description:
@@ -309,14 +285,6 @@ packages:
       url: "https://pub.flutter-io.cn"
     source: hosted
     version: "2.0.0"
-  package_info:
-    dependency: "direct main"
-    description:
-      name: package_info
-      sha256: "6c07d9d82c69e16afeeeeb6866fe43985a20b3b50df243091bfc4a4ad2b03b75"
-      url: "https://pub.flutter-io.cn"
-    source: hosted
-    version: "2.0.2"
   path:
     dependency: transitive
     description:
@@ -429,14 +397,6 @@ packages:
       url: "https://pub.flutter-io.cn"
     source: hosted
     version: "5.1.0"
-  share:
-    dependency: "direct main"
-    description:
-      name: share
-      sha256: "97e6403f564ed1051a01534c2fc919cb6e40ea55e60a18ec23cee6e0ce19f4be"
-      url: "https://pub.flutter-io.cn"
-    source: hosted
-    version: "2.0.4"
   shared_preferences:
     dependency: "direct main"
     description:

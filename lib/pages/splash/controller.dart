@@ -1,50 +1,32 @@
 import 'package:get/get.dart';
-import 'package:wananandroid/common/style/theme.dart';
-
-import 'index.dart';
+import 'package:wananandroid/pages/index.dart';
 
 class SplashController extends GetxController {
   SplashController();
 
-  final state = SplashState();
-
-  // tap
-  void handleTap(int index) {
-    Get.snackbar(
-      "标题",
-      "消息",
-    );
+  _initData() {
+    update(["splash"]);
   }
 
-  /// 在 widget 内存中分配后立即调用。
-  @override
-  void onInit() {
-    super.onInit();
-  }
+  void onTap() {}
 
-  /// 在 onInit() 之后调用 1 帧。这是进入的理想场所
+  // @override
+  // void onInit() {
+  //   super.onInit();
+  // }
+
   @override
   void onReady() {
     super.onReady();
+    _initData();
   }
 
-  /// 在 [onDelete] 方法之前调用。
-  @override
-  void onClose() {
-    super.onClose();
+  void pushTabbarPage() {
+    Get.offUntil(GetPageRoute(page: () => const MainPage()), (route) => route == null);
   }
 
-  /// dispose 释放内存
-  @override
-  void dispose() {
-    super.dispose();
-  }
-
-  void changeNight() {
-    Get.changeTheme(AppTheme.dark);
-  }
-
-  void changeLight() {
-    Get.changeTheme(AppTheme.light);
-  }
+  // @override
+  // void onClose() {
+  //   super.onClose();
+  // }
 }

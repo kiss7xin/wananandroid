@@ -1,6 +1,5 @@
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
-import 'package:package_info/package_info.dart';
 import '../../common/services/services.dart';
 import '../../common/values/values.dart';
 
@@ -8,8 +7,8 @@ class ConfigStore extends GetxController {
   static ConfigStore get to => Get.find();
 
   bool isFirstOpen = false;
-  PackageInfo? _platform;
-  String get version => _platform?.version ?? '-';
+  // PackageInfo? _platform;
+  // String get version => _platform?.version ?? '-';
   bool get isRelease => const bool.fromEnvironment("dart.vm.product");
   Locale locale = const Locale('en', 'US');
   List<Locale> languages = [
@@ -23,9 +22,9 @@ class ConfigStore extends GetxController {
     isFirstOpen = StorageService.to.getBool(STORAGE_DEVICE_FIRST_OPEN_KEY);
   }
 
-  Future<void> getPlatform() async {
-    _platform = await PackageInfo.fromPlatform();
-  }
+  // Future<void> getPlatform() async {
+  //   _platform = await PackageInfo.fromPlatform();
+  // }
 
   // 标记用户已打开APP
   Future<bool> saveAlreadyOpen() {
